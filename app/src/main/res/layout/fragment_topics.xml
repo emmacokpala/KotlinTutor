@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.Topics">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin20"
+        android:layout_marginTop="@dimen/margin20"
+        android:layout_marginEnd="@dimen/margin20"
+        android:layout_marginBottom="100dp">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/topics_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/topics"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text30"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/topic01"
+            android:layout_width="@dimen/button_width_145"
+            android:layout_height="@dimen/button_height_65"
+            android:layout_marginTop="@dimen/margin10"
+            android:backgroundTint="@drawable/btn_bg"
+            android:text="@string/topic01"
+            android:textAllCaps="false"
+            android:textColor="@drawable/btn_text_color"
+            android:textSize="@dimen/text16"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/topics_heading" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/topic02"
+            android:layout_width="@dimen/button_width_145"
+            android:layout_height="@dimen/button_height_65"
+            android:layout_marginTop="@dimen/margin10"
+            android:backgroundTint="@drawable/btn_bg"
+            android:text="@string/topic02"
+            android:textAllCaps="false"
+            android:textColor="@drawable/btn_text_color"
+            android:textSize="@dimen/text16"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/topics_heading" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/topic03"
+            android:layout_width="@dimen/button_width_145"
+            android:layout_height="@dimen/button_height_65"
+            android:layout_marginTop="@dimen/margin10"
+            android:backgroundTint="@drawable/btn_bg"
+            android:text="@string/topic03"
+            android:textAllCaps="false"
+            android:textColor="@drawable/btn_text_color"
+            android:textSize="@dimen/text16"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/topic01" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/topic04"
+            android:layout_width="@dimen/button_width_145"
+            android:layout_height="@dimen/button_height_65"
+            android:layout_marginTop="@dimen/margin10"
+            android:backgroundTint="@drawable/btn_bg"
+            android:text="@string/topic04"
+            android:textAllCaps="false"
+            android:textColor="@drawable/btn_text_color"
+            android:textSize="@dimen/text16"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/topic02" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/topic05"
+            android:layout_width="@dimen/button_width_145"
+            android:layout_height="@dimen/button_height_65"
+            android:layout_marginTop="@dimen/margin10"
+            android:backgroundTint="@drawable/btn_bg"
+            android:text="@string/topic05"
+            android:textAllCaps="false"
+            android:textColor="@drawable/btn_text_color"
+            android:textSize="@dimen/text16"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/topic03" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/topic06"
+            android:layout_width="@dimen/button_width_145"
+            android:layout_height="@dimen/button_height_65"
+            android:layout_marginTop="@dimen/margin10"
+            android:backgroundTint="@drawable/btn_bg"
+            android:text="@string/topic06"
+            android:textAllCaps="false"
+            android:textColor="@drawable/btn_text_color"
+            android:textSize="@dimen/text16"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/topic04" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/topic07"
+            android:layout_width="@dimen/button_width_145"
+            android:layout_height="@dimen/button_height_65"
+            android:layout_marginTop="@dimen/margin10"
+            android:backgroundTint="@drawable/btn_bg"
+            android:text="@string/topic07"
+            android:textAllCaps="false"
+            android:textColor="@drawable/btn_text_color"
+            android:textSize="@dimen/text16"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/topic05" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/topic08"
+            android:layout_width="@dimen/button_width_145"
+            android:layout_height="@dimen/button_height_65"
+            android:layout_marginTop="@dimen/margin10"
+            android:backgroundTint="@drawable/btn_bg"
+            android:text="@string/topic08"
+            android:textAllCaps="false"
+            android:textColor="@drawable/btn_text_color"
+            android:textSize="@dimen/text16"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/topic06" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/topic09"
+            android:layout_width="@dimen/button_width_145"
+            android:layout_height="@dimen/button_height_65"
+            android:layout_marginTop="@dimen/margin10"
+            android:backgroundTint="@drawable/btn_bg"
+            android:text="@string/topic09"
+            android:textAllCaps="false"
+            android:textColor="@drawable/btn_text_color"
+            android:textSize="@dimen/text16"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/topic07" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/topic10"
+            android:layout_width="@dimen/button_width_145"
+            android:layout_height="@dimen/button_height_65"
+            android:layout_marginTop="@dimen/margin10"
+            android:backgroundTint="@drawable/btn_bg"
+            android:text="@string/topic10"
+            android:textAllCaps="false"
+            android:textColor="@drawable/btn_text_color"
+            android:textSize="@dimen/text16"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/topic08" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/topic11"
+            android:layout_width="@dimen/button_width_145"
+            android:layout_height="@dimen/button_height_65"
+            android:layout_marginTop="@dimen/margin10"
+            android:backgroundTint="@drawable/btn_bg"
+            android:text="@string/topic11"
+            android:textAllCaps="false"
+            android:textColor="@drawable/btn_text_color"
+            android:textSize="@dimen/text16"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/topic09" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/topic12"
+            android:layout_width="@dimen/button_width_145"
+            android:layout_height="@dimen/button_height_65"
+            android:layout_marginTop="@dimen/margin10"
+            android:backgroundTint="@drawable/btn_bg"
+            android:text="@string/topic12"
+            android:textAllCaps="false"
+            android:textColor="@drawable/btn_text_color"
+            android:textSize="@dimen/text16"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/topic10" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/topic13"
+            android:layout_width="@dimen/button_width_145"
+            android:layout_height="@dimen/button_height_65"
+            android:layout_marginTop="@dimen/margin10"
+            android:backgroundTint="@drawable/btn_bg"
+            android:text="@string/topic13"
+            android:textAllCaps="false"
+            android:textColor="@drawable/btn_text_color"
+            android:textSize="@dimen/text16"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/topic11" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/topic14"
+            android:layout_width="@dimen/button_width_145"
+            android:layout_height="@dimen/button_height_65"
+            android:layout_marginTop="@dimen/margin10"
+            android:backgroundTint="@drawable/btn_bg"
+            android:text="@string/topic14"
+            android:textAllCaps="false"
+            android:textColor="@drawable/btn_text_color"
+            android:textSize="@dimen/text16"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/topic12" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

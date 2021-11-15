@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Kotlin Tutor</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="onboarding_text">Kickstart your career as an Android Developer with Kodecamp. We make Kotlin language so easy to learn.</string>
+    <string name="onboarding_button_text">Get Started</string>
+    <string name="signin_welcome_text">We\'re glad you\'ve returned to learn</string>
+    <string name="email">Email Address</string>
+    <string name="password">password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="signin_footer_text">Don\'t have an account? <u>Enrol Here</u></string>
+    <string name="signup_welcome_text">Coding is fun with Kodecamp!</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="username">Username</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="signup_footer_text">Already enrolled? <u>Sign In</u></string>
+    <string name="topics">Explore Topics</string>
+    <string name="topic01">Introduction</string>
+    <string name="topic02">Classes and Object</string>
+    <string name="topic03">Conditional Statements</string>
+    <string name="topic04">Classes and Inheritance</string>
+    <string name="topic05">Material Design</string>
+    <string name="topic06">Lists</string>
+    <string name="topic07">Recycler View</string>
+    <string name="topic08">Collections</string>
+    <string name="topic09">Activities and Intents</string>
+    <string name="topic10">Activity Lifecycle</string>
+    <string name="topic11">Fragments</string>
+    <string name="topic12">ViewModel</string>
+    <string name="topic13">Understanding Live Data</string>
+    <string name="topic14">Shared ViewModel</string>
+    <string name="details_heading"><u>01. Android: Introduction</u></string>
+    <string name="overview">Overview</string>
+    <string name="topic01_overview">Introduction to Kotlin and Android Studio.</string>
+    <string name="resources">Resources</string>
+    <string name="topic01_resources">You can access the codebase for project used in this tutorial <a href="https://github.com/Ikey22/FirstApp">here</a></string>
+    <string name="prerequisites">Prerequisites</string>
+    <string name="topic01_prerequisites">You should have access to a laptop (minimum of 500GB HDD and 8GB RAM), internet connectivity, and Android Studio desktop app to enjoy this topic.</string>
+    <string name="share">Share Topic</string>
+    <string name="nav_drawer_profile">Profile</string>
+    <string name="menu_profile">Profile</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="profile">Profile</string>
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.Details">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin20"
+        android:layout_marginTop="@dimen/margin10"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/details_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin10"
+            android:text="@string/details_heading"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text20"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/details_photo"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginStart="@dimen/margin20"
+            android:layout_marginTop="@dimen/margin20"
+            android:layout_marginEnd="@dimen/margin20"
+            android:importantForAccessibility="no"
+            android:src="@drawable/detailsbanner" />
+
+        <TextView
+            android:id="@+id/topic01_overview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin20"
+            android:layout_marginEnd="@dimen/margin20"
+            android:text="@string/overview"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text20"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/topic01_overview_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin20"
+            android:layout_marginEnd="@dimen/margin20"
+            android:text="@string/topic01_overview"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text16"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/topic01_resources"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin20"
+            android:layout_marginTop="@dimen/margin20"
+            android:layout_marginEnd="@dimen/margin20"
+            android:text="@string/resources"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text20"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/topic01_resources_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin20"
+            android:layout_marginEnd="@dimen/margin20"
+            android:text="@string/topic01_resources"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text16"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/topic01_prerequisites"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin20"
+            android:layout_marginTop="@dimen/margin20"
+            android:layout_marginEnd="@dimen/margin20"
+            android:text="@string/prerequisites"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text20"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/topic01_prerequisites_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin20"
+            android:layout_marginEnd="@dimen/margin20"
+            android:text="@string/topic01_prerequisites"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text16"
+            android:textStyle="normal" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/topic01_share_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginStart="@dimen/margin20"
+            android:layout_marginTop="@dimen/margin20"
+            android:layout_marginEnd="@dimen/margin20"
+            android:text="@string/share"
+            android:textAllCaps="false"
+            android:textSize="@dimen/text16" />
+
+    </LinearLayout>
+
+</ScrollView>

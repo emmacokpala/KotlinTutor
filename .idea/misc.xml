@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Mohbeauty/AndroidStudioProjects/KotlinTutor/app/src/main/res/drawable/btn_bg.xml" value="0.13914473684210527" />
+        <entry key="..\:/Users/Mohbeauty/AndroidStudioProjects/KotlinTutor/app/src/main/res/drawable/btn_text_color.xml" value="0.13914473684210527" />
+        <entry key="..\:/Users/Mohbeauty/AndroidStudioProjects/KotlinTutor/app/src/main/res/drawable/drawer_background.xml" value="0.13914473684210527" />
+        <entry key="..\:/Users/Mohbeauty/AndroidStudioProjects/KotlinTutor/app/src/main/res/drawable/ic_baseline_logout_24.xml" value="0.13914473684210527" />
+        <entry key="..\:/Users/Mohbeauty/AndroidStudioProjects/KotlinTutor/app/src/main/res/drawable/ic_topic_24.xml" value="0.13914473684210527" />
+        <entry key="..\:/Users/Mohbeauty/AndroidStudioProjects/KotlinTutor/app/src/main/res/drawable/searchview_background.xml" value="0.13914473684210527" />
+        <entry key="..\:/Users/Mohbeauty/AndroidStudioProjects/KotlinTutor/app/src/main/res/layout/activity_authentication.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/Mohbeauty/AndroidStudioProjects/KotlinTutor/app/src/main/res/layout/activity_home_screen.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/Mohbeauty/AndroidStudioProjects/KotlinTutor/app/src/main/res/layout/activity_main.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/Mohbeauty/AndroidStudioProjects/KotlinTutor/app/src/main/res/layout/drawer_menu.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/Mohbeauty/AndroidStudioProjects/KotlinTutor/app/src/main/res/layout/fragment_details.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/Mohbeauty/AndroidStudioProjects/KotlinTutor/app/src/main/res/layout/fragment_onboarding.xml" value="0.11503623188405797" />
+        <entry key="..\:/Users/Mohbeauty/AndroidStudioProjects/KotlinTutor/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/Users/Mohbeauty/AndroidStudioProjects/KotlinTutor/app/src/main/res/layout/fragment_sign_in.xml" value="0.11503623188405797" />
+        <entry key="..\:/Users/Mohbeauty/AndroidStudioProjects/KotlinTutor/app/src/main/res/layout/fragment_sign_up.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/Mohbeauty/AndroidStudioProjects/KotlinTutor/app/src/main/res/layout/fragment_splash.xml" value="0.11503623188405797" />
+        <entry key="..\:/Users/Mohbeauty/AndroidStudioProjects/KotlinTutor/app/src/main/res/layout/fragment_topics.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/Mohbeauty/AndroidStudioProjects/KotlinTutor/app/src/main/res/layout/nav_drawer.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/Mohbeauty/AndroidStudioProjects/KotlinTutor/app/src/main/res/layout/row_nav_drawer.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/Mohbeauty/AndroidStudioProjects/KotlinTutor/app/src/main/res/menu/bottom_nav.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/Mohbeauty/AndroidStudioProjects/KotlinTutor/app/src/main/res/menu/drawer_menu.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/Mohbeauty/AndroidStudioProjects/KotlinTutor/app/src/main/res/menu/menu.xml" value="0.12894736842105264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
